@@ -1,0 +1,13 @@
+.App {
+   flex-wrap: wrap;
+   text-align: center;
+   background: linear-gradient(353deg,#4bc87f 0%, #29668b 80%);
+   width: 100vw;
+   height: 100vh;
+}
+
+.tittle {
+   margin-top: 15px;
+   margin-bottom: 10px;
+   height: 150px;
+}

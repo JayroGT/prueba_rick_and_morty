@@ -1,0 +1,39 @@
+
+.input {
+    font-weight: 500;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    outline: none;
+    margin-right: 10px
+  }
+  
+  .input:focus {
+    border-bottom: 1px solid black;
+    -webkit-transition: 0.1s;
+    transition: 0.5s;
+    /* box-shadow: 38px 25px 31px 2px rgba(255,255,255,0.58); */
+
+  }
+
+  
+
+  .btnsearch {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 14px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    
+   }
+   
+   .btnsearch:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
