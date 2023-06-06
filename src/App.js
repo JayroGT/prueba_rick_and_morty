@@ -5,6 +5,9 @@ import style from './App.module.css';
 import logo from "./assets/logo.png";
 import axios from 'axios';
 import { Routes,Route } from 'react-router-dom';
+import Detail from './components/detail/Detail.jsx';
+import About from './components/about/About.jsx';
+import Error from './components/error/Error.jsx';
 
 
 function App() {
@@ -38,12 +41,12 @@ function onSearch(id) {
             <div>
                 <img src = {logo} alt='logo' className={style.tittle} />
                   <NavBar onSearch={onSearch}/>
-            </div>
-            <hr />  
-            <div>
-                <Cards 
-                onClose = {onClose}  
-                characters={characters} />
+                  <Routes>
+                     <Route path = "/home"   element={<Cards onClose = {onClose} characters={characters} />}/>
+                     <Route path= "/about" element ={<About />} />
+                     <Route path="/detail/:detailID" element={<Detail/>} />
+                     <Route path="*" element={<Error />} />
+                  </Routes>
             </div>
       </div>
     </div>

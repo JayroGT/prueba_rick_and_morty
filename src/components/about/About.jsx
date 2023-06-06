@@ -4,7 +4,7 @@ export default function About(props){
 
     return(
             <>
-            <P>Este espacio hablara sobre el about.</P>
+            <p>Este espacio hablara sobre el about.</p>
             </>
     )
 }
