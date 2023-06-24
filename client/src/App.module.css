@@ -1,0 +1,21 @@
+.App {
+   
+   /* display: flex;
+   align-items: center;
+   text-align: center; */
+   background: linear-gradient(353deg,#4bc87f 0%, #29668b 80%);
+   /* max-width: 1200px;
+   height: 100%;
+   margin: 0 auto; */
+}
+
+
+
+.tittle {
+      display: flex;
+      width: 30%; /* ajusta el ancho según tus necesidades */
+      height: auto; /* el alto se ajustará proporcionalmente */
+      display: block; /* convierte la imagen en un elemento de bloque para centrarla */
+      margin: 0 auto; /* centra la imagen horizontalmente */
+      margin-top: 20px;
+}
